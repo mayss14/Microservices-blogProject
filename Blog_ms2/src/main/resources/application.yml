@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Blog_ms2
+  datasource:
+    password: ""
+    username: "root"
+    url: jdbc:mysql://localhost:3306/commentsmsdb
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8082

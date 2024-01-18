@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: Blog_ms1
+  datasource:
+    url: jdbc:mysql://localhost:3306/articleCatdb?createDatabaseIfNotExist=true
+    username: "root"
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
